@@ -1,11 +1,11 @@
 # Student ID:20M30781, Name: ZHANG XUAN
 # Testing Result on Tsubame (N=256)
 ## MPI(example code)
-command:
-module load gcc
-moudle load intelmpi
-mpicxx example.cpp -std=c++11
-mpirun -np 4 ./a.out
+command:  
+module load gcc  
+moudle load intelmpi  
+mpicxx example.cpp -std=c++11  
+mpirun -np 4 ./a.out  
 | Time(s) | GFlops | Error  |
 | -------- | -------- | -------- |
 | 0.042151 | 0.793224 | 0.000016 |
