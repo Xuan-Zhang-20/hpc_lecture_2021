@@ -6,7 +6,7 @@
 #include <chrono>
 using namespace std;
 
-void matmult(matrix &A, matrix &B, matrix &C, int N, int size, int offset) {
+void matmult(vector<float> &A, vector<float> &B, vector<float> &C, int N, int size, int offset) {
   const int m = N, n = N, k = N;
   const int kc = 512;
   const int nc = 64;
